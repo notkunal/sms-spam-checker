@@ -1,4 +1,3 @@
-import pyautogui as pyautogui
 import streamlit as st
 import time
 import pickle
@@ -52,8 +51,8 @@ with col1:
             else:
                 st.success("This is not a spam message!!")
 with col2:
-    if st.button(" Reset "):
-        pyautogui.hotkey("ctrl","F5")
+    st.button(" Reset ")
+        # pyautogui.hotkey("ctrl","F5")
 st.caption("Developed by [Not Kunal :)](https://twitter.com/Not__Kunal)")
 st.sidebar.title("Connect me via :")
 st.sidebar.header("[X/Twitter](https://twitter.com/Not__Kunal)")
