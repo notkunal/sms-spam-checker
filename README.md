@@ -16,9 +16,10 @@ You can install necessary libraries using pip:
 ```bash
 pip install -r requirements.txt
 ```
+To run the application open your local terminal and execute the following command :
 
 ```bash
-spamguard check "Your SMS text goes here."
+streamlit run app.py
 ```
 
 ### Live Link
