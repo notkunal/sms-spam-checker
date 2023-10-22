@@ -1,6 +1,7 @@
 import streamlit as st
 import time
 import pickle
+import pyautogui
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
